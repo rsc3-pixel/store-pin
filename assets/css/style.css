@@ -1,0 +1,67 @@
+:root{
+	--blue: #2f7be3; 
+	--blue-dark: #245fc0;
+	--bg: #ffffff;
+	--muted: #6b7280;
+	--container: 1100px;
+	--radius: 8px;
+}
+
+*{box-sizing: border-box}
+body{
+	margin:0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	color:#111827;
+	background:var(--bg);
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	line-height:1.4;
+}
+
+.container{max-width:var(--container);margin:0 auto;padding:0 16px}
+
+
+.site-header{background:var(--blue);color:white;padding:12px 0;border-radius:6px}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;color:#fff;text-decoration:none;font-size:20px}
+.main-nav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px}
+.main-nav a{color:rgba(255,255,255,0.95);text-decoration:none;font-weight:600;font-size:14px}
+
+.hero{padding:48px 0;background:linear-gradient(180deg, rgba(47,123,227,0.06), transparent)}
+.hero .container{display:flex;flex-direction:column;align-items:flex-start}
+.hero h1{margin:0;font-size:34px;color:var(--blue-dark)}
+.lead{margin-top:8px;color:var(--muted)}
+
+.featured{padding:28px 0}
+.featured h2{margin:0 0 12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.card{background:#fff;border:1px solid #eef2f7;padding:16px;border-radius:var(--radius);display:flex;flex-direction:column;align-items:flex-start;gap:8px}
+.thumb{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--blue),var(--blue-dark));display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+.price{margin:0;color:var(--blue-dark);font-weight:700}
+.btn{margin-top:auto;background:var(--blue);color:white;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+.btn:hover{background:var(--blue-dark)}
+
+.about{padding:24px 0}
+.resumo{max-width:720px}
+
+.site-footer{border-top:1px solid #e6edf5;padding:18px 0;background:#fbfdff}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.footer-links a{margin-left:12px;color:var(--muted);text-decoration:none}
+
+@media (max-width:720px){
+	.header-inner{flex-direction:column;gap:10px}
+	.main-nav ul{flex-wrap:wrap;justify-content:center}
+	.footer-inner{flex-direction:column;align-items:flex-start}
+}
+
+
+
+:root {
+	--scrollbar-track: #f6f7f9;
+	--scrollbar-thumb: var(--blue);
+	--scrollbar-thumb-hover: var(--blue-dark);
+	--scrollbar-width: 10px;
+	--scrollbar-radius: 999px;
+}
+
+
