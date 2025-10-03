@@ -20,10 +20,10 @@ O projeto foi desenvolvido pelo trio a seguir, seguindo a sugestão de papéis p
 
 | Nome da Variável | Código Hexadecimal | Uso Principal |
 | :--- | :--- | :--- |
-| `--cor-primaria` | **#[HEX AQUI]** | Destaques, Botões e Títulos |
-| `--cor-secundaria` | **#[HEX AQUI]** | Plano de Fundo Secundário |
-| `--cor-texto` | **#[HEX AQUI]** | Corpo de Texto |
-| `--cor-fundo` | **#[HEX AQUI]** | Fundo Principal da Página |
+| `--cor-primaria` | **#18230F** | Destaques, Botões e Títulos |
+| `--cor-secundaria` | **#27391C** | Plano de Fundo Secundário |
+| `--cor-texto` | **#255F38** | Corpo de Texto |
+| `--cor-fundo` | **#1F7D53** | Fundo Principal da Página |
 
 ### Fontes Utilizadas (Google Fonts)
 
