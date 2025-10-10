@@ -51,13 +51,13 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 
 | Item | Status |
 | :--- | :--- |
-| **3 páginas mínimas** (Home/Sobre/Contato) + links funcionando. | [X] |
-| `header`, `nav`, `main`, `footer` usados com propósito. | [X] |
+| **3 páginas mínimas** (Home/Sobre/Contato) + links funcionando. | [OK] |
+| `header`, `nav`, `main`, `footer` usados com propósito. | [OK] |
 | **Hero** na página principal (Título, subtítulo, botão). | [X] |
 | **Tabela simples** presente (na página Sobre/Serviços). | [X] |
-| Paleta no **`:root`** (variáveis CSS). | [X] |
+| Paleta no **`:root`** (variáveis CSS). | [OK] |
 | **Google Fonts** aplicadas. | [X] |
-| Imagens otimizadas com **`alt` descritivo**. | [X] |
+| Imagens otimizadas com **`alt` descritivo**. | [OK] |
 | **README** com papéis, paleta, fontes e decisões. | [X] |
 | **Site no ar** (Link ativo: [LINK DO GITHUB PAGES/VERCEL AQUI]). | [X] |
 | **Vídeo de demonstração** (Link: [LINK DO VÍDEO AQUI]). | [X] |
