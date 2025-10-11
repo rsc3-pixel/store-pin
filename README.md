@@ -22,8 +22,8 @@ O projeto foi desenvolvido pelo trio a seguir, seguindo a sugestão de papéis p
 | :--- | :--- | :--- |
 | `--cor-primaria` | **#18230F** | Destaques, Botões e Títulos |
 | `--cor-secundaria` | **#27391C** | Plano de Fundo Secundário |
-| `--cor-texto` | **#255F38** | Corpo de Texto |
-| `--cor-fundo` | **#1F7D53** | Fundo Principal da Página |
+| `--cor-texto` | **#FFF** | Corpo de Texto |
+| `--cor-fundo` | **#27391C** | Fundo Principal da Página |
 
 ### Fontes Utilizadas (Google Fonts)
 
