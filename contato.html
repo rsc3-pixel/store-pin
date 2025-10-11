@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Contato - StorePin</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
   <style>
     
     body {
       font-family: 'Inter', sans-serif;
-      background-color: #1F7D53;
+      background-color: #27391C;
       margin: 0;
       padding: 0;
-      color: #18230F;
+      color: #27391C;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     header {
       font-family: 'Montserrat', sans-serif;
-      background-color: #255F38;
+      background-color: #18230F;
       color: white;
       text-align: center;
       padding: 30px 20px;
@@ -32,13 +36,22 @@
     }
 
     main {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 4000px;
+      margin: 80px;
+      margin-left: 300px;
+      margin-right: 300px;
       padding: 20px;
-      background: #00FF6A;
+      background: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-info {
+      text-align: left;
     }
 
     .contact-item {
@@ -58,11 +71,11 @@
       transition: color 0.3s ease, text-decoration 0.3s ease;
     }
 
-    a:hover {
+    /* a:hover {
       text-decoration: underline;
       color: #0F4A2A;
-    }
-
+    } */
+/* 
     footer {
       text-align: center;
       padding: 15px;
@@ -79,39 +92,52 @@
 
     footer a:hover {
       text-decoration: underline;
-    }
+    } */
   </style>
 </head>
 <body>
   <header>
-    <h1>Fale Conosco</h1>
-    <p>Veja as formas de entrar em contato com a StorePin</p>
+    <nav class="main-nav">
+          <ul>
+            <li><a href="produtos.html">PINS PARA COLECIONADOR</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+          </ul>
+    </nav>
   </header>
 
   <main>
-    <div class="contact-item">
-      📧 <span>Email:</span> <a href="mailto:contato@StorePin.com" aria-label="Enviar email para contato@StorePin.com">contato@StorePin.com</a>
-    </div>
+    <div class="contact-info">
+      <div class="contact-item">
+        📧 <span>Email:</span> <a href="mailto:contato@StorePin.com" aria-label="Enviar email para contato@StorePin.com">contato@StorePin.com</a>
+      </div>
 
-    <div class="contact-item">
-      📱 <span>WhatsApp:</span> <a href="https://wa.me/5581999999999" target="_blank" aria-label="Abrir WhatsApp para (81) 99999-9999">(81) 99999-9999</a>
-    </div>
+      <div class="contact-item">
+        📱 <span>WhatsApp:</span> <a href="https://wa.me/5581999999999" target="_blank" aria-label="Abrir WhatsApp para (81) 99999-9999">(81) 99999-9999</a>
+      </div>
 
-    <div class="contact-item">
-      ☎️ <span>Telefone:</span> (81) 3456-7890
-    </div>
+      <div class="contact-item">
+        ☎️ <span>Telefone:</span> (81) 3456-7890
+      </div>
 
-    <div class="contact-item">
-      📍 <span>Endereço:</span> Rua Matheus Brasileiro Aguiar - Brasil
-    </div>
+      <div class="contact-item">
+        📍 <span>Endereço:</span> Rua Matheus Brasileiro Aguiar - Brasil
+      </div>
 
-    <div class="contact-item">
-      📷 <span>Instagram:</span> <a href="https://instagram.com/StorePin" target="_blank" aria-label="Visitar Instagram da StorePin">@StorePin</a>
+      <div class="contact-item">
+        📷 <span>Instagram:</span> <a href="https://instagram.com/StorePin" target="_blank" aria-label="Visitar Instagram da StorePin">@StorePin</a>
+      </div>
     </div>
   </main>
 
-  <footer>
-    &copy; 2025 StorePin - Todos os direitos reservados. | <a href="/politica-de-privacidade.html">Política de Privacidade</a>
-  </footer>
+  <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2025 StorePin. Todos os direitos reservados.</p>
+        <nav class="footer-links">
+          <a href="#">Termos de Uso</a>
+          <a href="#">Política de Privacidade</a>
+        </nav>
+      </div>
+    </footer>
 </body>
 </html>
