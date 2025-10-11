@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 .site-header { position: relative; }
 
 .brand{display:inline-flex;align-items:center;gap:12px;font-weight:700;color:#fff;text-decoration:none;font-size:52px;}
@@ -38,7 +40,7 @@
 *{box-sizing: border-box}
 body{
 	margin:0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 	color:#111827;
 	background:var(--bg);
 	-webkit-font-smoothing:antialiased;
@@ -137,4 +139,3 @@ body{
 /* Centralizar título e estruturar a seção 'Fale conosco' */
 .page-contato .fale-conosco { display: flex; flex-direction: column; align-items: center; text-align: center }
 .page-contato .fale-conosco h2 { display: inline-block }
-
