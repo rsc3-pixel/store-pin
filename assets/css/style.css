@@ -1,4 +1,20 @@
+.site-header { position: relative; }
+
+.brand{display:inline-flex;align-items:center;gap:12px;font-weight:700;color:#fff;text-decoration:none;font-size:52px;}
+
+.logo {position: absolute;right: 43%; top: 120%;transform: translateY(-80%);height: var(--logo-height);filter: brightness(0) invert(1);transition: none !important; pointer-events: none;z-index: 4;}
+
+.logo--right {right: px; left: auto;height: var(--logo-overlap-height, 120px) !important;transform: translateY(-50%);z-index: 5;}
+
+.logo--overlap { right: -20px; left: auto; height: var(--logo-overlap-height, 120px) !important; transform: translateY(-50%); z-index: 5; }
+.header-inner { padding-left: 140px; }
+
+@media (max-width:600px){.logo{position:static;height:var(--logo-height-mobile,56px);transform:none} .header-inner{padding-left:16px}}
+
 :root{
+	--logo-height: 120px;
+	--logo-overlap-height: 160px;
+	--logo-height-mobile: 56px;
 	--green: #18230F; 
 	--green-dark: #18230F;
 	--bg: #27391C;
