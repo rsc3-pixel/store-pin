@@ -53,7 +53,7 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 | :--- | :--- |
 | **3 páginas mínimas** (Home/Sobre/Contato) + links funcionando. | [OK] |
 | `header`, `nav`, `main`, `footer` usados com propósito. | [OK] |
-| **Hero** na página principal (Título, subtítulo, botão). | [X] |
+| **Hero** na página principal (Título, subtítulo, botão). | [OK] |
 | **Tabela simples** presente (na página Sobre/Serviços). | [X] |
 | Paleta no **`:root`** (variáveis CSS). | [OK] |
 | **Google Fonts** aplicadas. | [X] |
