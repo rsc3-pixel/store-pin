@@ -114,7 +114,6 @@ body{
 	.footer-inner{flex-direction:column;align-items:flex-start}
 }
 
-/* Estilos específicos para a página de contato (contato1.html) */
 .page-contato {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -128,14 +127,11 @@ body{
 .page-contato .fale-conosco .content { max-width:800px; margin:0 auto; color:#eee; line-height:1.6 }
 .page-contato .fale-conosco a { color: #fff; text-decoration: none }
 
-/* Centralizar informações de contato */
 .page-contato .fale-conosco .content { text-align: center }
 .page-contato .fale-conosco .content p { margin: 0.6rem 0; }
 .page-contato .fale-conosco .content p strong { display: inline-block; min-width: 90px; }
 
-/* Garantir que links internos na página de contato não sejam sublinhados por padrão */
 .page-contato a { text-decoration: none }
 
-/* Centralizar título e estruturar a seção 'Fale conosco' */
 .page-contato .fale-conosco { display: flex; flex-direction: column; align-items: center; text-align: center }
 .page-contato .fale-conosco h2 { display: inline-block }
