@@ -1,18 +1,18 @@
-# ☕ [NOME DA MARCA AQUI] - Website Institucional (HTML/CSS)
+#StorePin - Loja de Pins
 
 ## 📌 Descrição do Projeto
 
-Este é o projeto da 1ª Avaliação da disciplina de [Nome da Disciplina, ex: Fundamentos de Desenvolvimento Web], com o objetivo de criar um **site estático institucional** focado em **HTML Semântico**, **CSS Organizado** e **Acessibilidade Básica**. Escolhemos o tema **[TEMA DA MARCA ESCOLHIDA, ex: Cafeteria Artesanal, Estúdio de Design Sustentável, etc.]** para aplicar os conhecimentos de estrutura e estilo.
+Este é o projeto da 1ª Avaliação da disciplina de Introdução à Computação, com o objetivo de criar um site estático institucional focado em HTML Semântico, CSS Organizado** e Acessibilidade Básica. Escolhemos o tema Loja de Pin's de Aço para aplicar os conhecimentos de estrutura e estilo.
 
 ## 👥 Autores e Papéis
 
 O projeto foi desenvolvido pelo trio a seguir, seguindo a sugestão de papéis para garantir a cobertura dos requisitos:
 
-| Nome do Aluno | Matrícula | Papel Principal | Contribuições |
-| :--- | :--- | :--- | :--- |
-| **[Nome do Aluno 1]** | [Matrícula 1] | **Dev 1 – Estrutura e Acessibilidade** | Estruturação de todas as páginas, uso correto de tags semânticas (`header`, `nav`, `main`, `footer`), e atributos `alt` em imagens. |
-| **[Nome do Aluno 2]** | [Matrícula 2] | **Dev 2 – Layout e Componentes** | Implementação do Flexbox, criação do Hero, design dos cards de destaque e layout da tabela. |
-| **[Nome do Aluno 3]** | [Matrícula 3] | **Dev 3 – Estilo e Documentação** | Definição e aplicação da paleta de cores via `:root`, tipografia, otimização de imagens e elaboração deste `README.md`. |
+| Nome do Aluno | Papel Principal | Contribuições |
+| :--- | :--- | :--- |
+| **[Luís Felipe Farias Nunes]** | **Dev 1 – Estrutura e Acessibilidade** | Estruturação de todas as páginas, uso correto de tags semânticas (`header`, `nav`, `main`, `footer`), e atributos `alt` em imagens. Elaboração do Index e Produtos|
+| **[Renato Santos Chong]** | **Dev 2 – Layout e Componentes** | Implementação do Flexbox, criação do Hero, design dos cards de destaque e layout da tabela. Elaboração do Sobre e Produtos|
+| **[Fernando Andrade Leandro Peixoto]** | **Dev 3 – Estilo e Documentação** | Definição e aplicação da paleta de cores via `:root`, tipografia, otimização de imagens e elaboração deste `README.md`. Elaboração do Contato e Produtos|
 
 ## 🎨 Identidade Visual e Tipografia
 
@@ -27,8 +27,9 @@ O projeto foi desenvolvido pelo trio a seguir, seguindo a sugestão de papéis p
 
 ### Fontes Utilizadas (Google Fonts)
 
-* **Título Principal:** **[Nome da Fonte 1]** (Ex: 'Montserrat', sans-serif)
-* **Corpo do Texto:** **[Nome da Fonte 2]** (Ex: 'Roboto', sans-serif)
+* **Título Principal:** **"Quicksand", sans-serif** 
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 ## 💻 Como Abrir o Projeto
 
@@ -54,13 +55,13 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 | **3 páginas mínimas** (Home/Sobre/Contato) + links funcionando. | [OK] |
 | `header`, `nav`, `main`, `footer` usados com propósito. | [OK] |
 | **Hero** na página principal (Título, subtítulo, botão). | [OK] |
-| **Tabela simples** presente (na página Sobre/Serviços). | [X] |
+| **Tabela simples** presente (na página Sobre/Serviços). | [OK] |
 | Paleta no **`:root`** (variáveis CSS). | [OK] |
-| **Google Fonts** aplicadas. | [X] |
+| **Google Fonts** aplicadas. | [OK] |
 | Imagens otimizadas com **`alt` descritivo**. | [OK] |
-| **README** com papéis, paleta, fontes e decisões. | [X] |
-| **Site no ar** (Link ativo: [LINK DO GITHUB PAGES/VERCEL AQUI]). | [X] |
-| **Vídeo de demonstração** (Link: [LINK DO VÍDEO AQUI]). | [X] |
+| **README** com papéis, paleta, fontes e decisões. | [OK] |
+| **Site no ar** (Link ativo: [LINK DO GITHUB PAGES/VERCEL AQUI]). | [OK] |
+| **Vídeo de demonstração** (Link: [LINK DO VÍDEO AQUI]). | [OK] |
 
 ## 💡 Decisões de Design e Código (Para o Vídeo e Documentação)
 
@@ -68,4 +69,4 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 
 1.  **Semântica do Destaque:** Optamos por usar `<section>` para os destaques da Home e `<article>` dentro de cada card. Isso reforça a semântica, indicando que cada card é um conteúdo independente dentro de uma seção temática.
 2.  **Gerenciamento de Cores:** Utilizamos o bloco **`:root`** para declarar as 4 cores principais. Isso permite uma gestão centralizada do tema, facilitando futuras alterações e garantindo a consistência do design em todo o site.
-3.  **Layout Responsivo (Bônus):** Implementamos *Media Queries* específicas no CSS para adaptar a barra de navegação e os cards de destaque, garantindo uma melhor experiência em dispositivos móveis. *[Ajuste este ponto se optar pelo Desafio Bônus]*
+3.  **Layout Responsivo (Bônus):** Implementamos *Media Queries* específicas no CSS para adaptar a barra de navegação e os cards de destaque, garantindo uma melhor experiência em dispositivos móveis.
