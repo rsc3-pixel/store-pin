@@ -1,4 +1,4 @@
-#StorePin - Loja de Pins
+# StorePin - Loja de Pins
 
 ## 📌 Descrição do Projeto
 
@@ -41,7 +41,7 @@ O projeto é 100% estático e não requer servidores. Basta seguir os passos:
     ```
 2.  **Acesse a pasta:**
     ```bash
-    cd [pasta-do-projeto]
+    cd STORE-PIN
     ```
 3.  **Abra o arquivo principal:**
     Localize e abra o arquivo **`index.html`** diretamente no seu navegador de preferência.
@@ -60,7 +60,7 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 | **Google Fonts** aplicadas. | [OK] |
 | Imagens otimizadas com **`alt` descritivo**. | [OK] |
 | **README** com papéis, paleta, fontes e decisões. | [OK] |
-| **Site no ar** (Link ativo: [LINK DO GITHUB PAGES/VERCEL AQUI]). | [OK] |
+| **Site no ar** (Link ativo: https://rsc3-pixel.github.io/store-pin/index.html ). | [OK] |
 | **Vídeo de demonstração** (Link: [LINK DO VÍDEO AQUI]). | [OK] |
 
 ## 💡 Decisões de Design e Código (Para o Vídeo e Documentação)
