@@ -2,7 +2,7 @@
 
 .brand{display:inline-flex;align-items:center;gap:12px;font-weight:700;color:#fff;text-decoration:none;font-size:52px;}
 
-.logo {position: absolute;right: 43%; top: 120%;transform: translateY(-80%);height: var(--logo-height);filter: brightness(0) invert(1);transition: none !important; pointer-events: none;z-index: 4;}
+.logo {position: absolute;right: 45%; top: 120%;transform: translateY(-80%);height: var(--logo-height);filter: brightness(0) invert(1);transition: none !important; pointer-events: none;z-index: 4;}
 
 .logo--right {right: px; left: auto;height: var(--logo-overlap-height, 120px) !important;transform: translateY(-50%);z-index: 5;}
 
@@ -13,7 +13,7 @@
 
 :root{
 	--logo-height: 120px;
-	--logo-overlap-height: 160px;
+	--logo-overlap-height: 155px;
 	--logo-height-mobile: 56px;
 	--green: #18230F; 
 	--green-dark: #18230F;
