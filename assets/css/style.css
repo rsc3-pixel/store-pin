@@ -5,8 +5,8 @@
 	--muted: #6b7280;
 	--container: 1100px;
 	--thumb-size: 200px;
-	--thumb-image-scale: 1.45;
-	--thumb-image-scale2: 0.75;
+	--thumb-image-scale: 1.00;
+	--thumb-image-scale2: 0.50;
 	--radius: 8px;
 }
 
@@ -83,6 +83,12 @@ body{
 .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:12px}
 
 .footer-links a{margin-left:12px;color:#18230F;text-decoration:none}
+
+.contact-info {text-align: left;}
+
+.contact-item {margin: 25px 0;font-size: 1.1rem;}
+
+.contact-item span {font-weight: bold;color: #18230F;}
 
 @media (max-width:720px){
 	.header-inner{flex-direction:column;gap:10px}
