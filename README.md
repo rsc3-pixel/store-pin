@@ -61,7 +61,7 @@ Este checklist confirma o cumprimento dos requisitos obrigatórios da avaliaçã
 | Imagens otimizadas com **`alt` descritivo**. | [OK] |
 | **README** com papéis, paleta, fontes e decisões. | [OK] |
 | **Site no ar** (Link ativo: https://rsc3-pixel.github.io/store-pin/index.html ). | [OK] |
-| **Vídeo de demonstração** (Link: [LINK DO VÍDEO AQUI]). | [OK] |
+| **Vídeo de demonstração** (Link: https://drive.google.com/file/d/1gag6V8UcysVro2_Jv7pkPbBotyLuSmna/view?usp=drive_link ). | [OK] |
 
 ## 💡 Decisões de Design e Código (Para o Vídeo e Documentação)
 
